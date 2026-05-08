@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard | Libra'z Beauty Salon</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="page-wrap admin-wrap">
+      <section class="card admin-card fade-in-up">
+        <h1>Admin Panel</h1>
+        <p class="subtitle">Manage appointments for Libra'z Beauty Salon</p>
+
+        <div id="adminGate" class="admin-gate">
+          <label for="adminPassword">Enter Admin Password</label>
+          <input id="adminPassword" type="password" placeholder="Admin password" />
+          <button id="unlockAdminBtn" class="btn-gradient">Unlock Dashboard</button>
+        </div>
+
+        <div id="dashboardSection" class="hidden">
+          <div class="dashboard-head">
+            <h2>Bookings</h2>
+            <div class="dashboard-head-actions">
+              <button id="refreshBtn" class="btn-outline">Refresh</button>
+              <button id="lockDashboardBtn" class="btn-outline" type="button">Lock Dashboard</button>
+            </div>
+          </div>
+          <div class="table-wrap admin-table-desktop">
+            <table>
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Phone</th>
+                  <th>Email</th>
+                  <th>Promo Code</th>
+                  <th>Services</th>
+                  <th>Total Bill</th>
+                  <th>Status</th>
+                  <th>Created</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody id="bookingsTbody"></tbody>
+            </table>
+          </div>
+          <div id="bookingsCards" class="bookings-cards admin-cards-mobile" aria-live="polite"></div>
+          <div class="admin-actions-row">
+            <div class="admin-download-links">
+              <button id="downloadAllBtn" class="btn-outline" type="button">Download All Bookings (Excel)</button>
+              <button id="downloadContactsBtn" class="btn-outline" type="button">Download Contacts Only (Excel)</button>
+            </div>
+            <a class="btn-outline price-list-link" href="price-list.html">View Price List</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="toast" class="toast hidden"></div>
+    <script src="script.js"></script>
+  </body>
+  </html>

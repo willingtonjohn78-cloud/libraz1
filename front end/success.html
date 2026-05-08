@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking Success | Libra'z Beauty Salon</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="page-wrap">
+      <section class="card success-card fade-in-up">
+        <div id="invoiceView">
+          <h1 class="success-heading">Review Your Invoice</h1>
+          <p class="success-text">Please confirm details before booking.</p>
+          <div id="invoiceSummary" class="invoice-box"></div>
+          <div class="invoice-actions">
+            <button id="editInvoiceBtn" class="btn-outline" type="button">Edit</button>
+            <button id="confirmInvoiceBtn" class="btn-gradient" type="button">Confirm Booking</button>
+          </div>
+        </div>
+        <div id="successView" class="hidden">
+          <div class="success-icon">🎉</div>
+          <h1 class="success-heading">Your appointment has been booked successfully!</h1>
+          <p class="success-text">Thank you for choosing Libra'z Beauty Salon.</p>
+          <p id="successName" class="success-name hidden"></p>
+          <a href="index.html" class="btn-outline">Book More Services</a>
+        </div>
+      </section>
+    </main>
+    <div id="toast" class="toast hidden"></div>
+    <script src="price-data.js"></script>
+    <script src="script.js"></script>
+  </body>
+  </html>
