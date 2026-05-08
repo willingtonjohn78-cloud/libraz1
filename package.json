@@ -1,0 +1,22 @@
+{
+  "name": "libraz-beauty-salon-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Libra'z Beauty Salon appointment booking",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "express",
+    "booking",
+    "salon"
+  ],
+  "author": "Asma Naz",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "nanoid": "^3.3.8"
+  }
+}
