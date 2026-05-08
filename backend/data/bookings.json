@@ -1,0 +1,176 @@
+[
+  {
+    "id": "LBS-00001",
+    "name": "Test",
+    "phone": "+923001234567",
+    "email": null,
+    "promoCode": null,
+    "status": "Confirmed",
+    "createdAt": "2026-05-05T06:55:51.718Z"
+  },
+  {
+    "id": "LBS-00002",
+    "name": "Smoke",
+    "phone": "+923001111111",
+    "email": null,
+    "promoCode": null,
+    "status": "Confirmed",
+    "createdAt": "2026-05-05T06:56:02.318Z"
+  },
+  {
+    "id": "LBS-00003",
+    "name": "Hammad Ali",
+    "phone": "+923063971829",
+    "email": "mr.hamad.7@gmail.com",
+    "promoCode": null,
+    "status": "Confirmed",
+    "createdAt": "2026-05-05T07:21:49.048Z"
+  },
+  {
+    "id": "LBS-00004",
+    "name": "Service Test",
+    "phone": "+923001234567",
+    "email": null,
+    "promoCode": null,
+    "status": "Pending",
+    "createdAt": "2026-05-05T07:51:42.269Z"
+  },
+  {
+    "id": "LBS-00005",
+    "name": "Service Test 2",
+    "phone": "+923001234568",
+    "email": null,
+    "promoCode": null,
+    "selectedServices": [
+      {
+        "category": "Facials",
+        "service": "Regular Facial",
+        "rateLabel": "1800/-",
+        "amount": 1800
+      }
+    ],
+    "totalBill": 1800,
+    "status": "Pending",
+    "createdAt": "2026-05-05T07:51:56.645Z"
+  },
+  {
+    "id": "LBS-00006",
+    "name": "Aliya",
+    "phone": "+923104500662",
+    "email": null,
+    "promoCode": "vouch30",
+    "selectedServices": [
+      {
+        "category": "Facials",
+        "service": "Regular Facial",
+        "rateLabel": "1800/-",
+        "amount": 1800
+      },
+      {
+        "category": "Skin Polishing",
+        "service": "Simple Skin Polish",
+        "rateLabel": "800/-",
+        "amount": 800
+      },
+      {
+        "category": "Threading",
+        "service": "Full Face w/ Eye Brows",
+        "rateLabel": "1600/-",
+        "amount": 1600
+      },
+      {
+        "category": "Manicure + Pedicure",
+        "service": "Whitening Manicure/Pedicure",
+        "rateLabel": "4000/-",
+        "amount": 4000
+      }
+    ],
+    "totalBill": 8200,
+    "status": "Confirmed",
+    "createdAt": "2026-05-05T07:55:30.014Z"
+  },
+  {
+    "id": "LBS-00007",
+    "name": "ID Format Test",
+    "phone": "+923009998887",
+    "email": null,
+    "promoCode": null,
+    "selectedServices": [
+      {
+        "category": "Facials",
+        "service": "Regular Facial",
+        "rateLabel": "1800/-",
+        "amount": 1800
+      }
+    ],
+    "totalBill": 1800,
+    "status": "Pending",
+    "createdAt": "2026-05-05T08:02:40.318Z"
+  },
+  {
+    "id": "LBS-00008",
+    "name": "Eman",
+    "phone": "+923135548963",
+    "email": null,
+    "promoCode": null,
+    "selectedServices": [
+      {
+        "category": "Threading",
+        "service": "Full Face w/ Eye Brows",
+        "rateLabel": "1600/-",
+        "amount": 1600
+      },
+      {
+        "category": "Facials",
+        "service": "Gold Facial 1",
+        "rateLabel": "2500/-",
+        "amount": 2500
+      }
+    ],
+    "totalBill": 4100,
+    "status": "Pending",
+    "createdAt": "2026-05-05T08:06:06.789Z"
+  },
+  {
+    "id": "LBS-00009",
+    "name": "Seq ID Test",
+    "phone": "+923001234500",
+    "email": null,
+    "promoCode": null,
+    "selectedServices": [
+      {
+        "category": "Facials",
+        "service": "Regular Facial",
+        "rateLabel": "1800/-",
+        "amount": 1800
+      }
+    ],
+    "totalBill": 1800,
+    "status": "Pending",
+    "createdAt": "2026-05-05T08:09:13.344Z"
+  },
+  {
+    "id": "LBS-00010",
+    "name": "hamna",
+    "phone": "+923215416062",
+    "email": null,
+    "promoCode": null,
+    "selectedServices": [
+      {
+        "category": "Facials",
+        "service": "Regular Facial",
+        "rateLabel": "1800/-",
+        "amount": 1800
+      },
+      {
+        "category": "Hair Cutting",
+        "service": "U Shape",
+        "rateLabel": "800/-",
+        "amount": 800
+      }
+    ],
+    "totalBill": 2600,
+    "status": "Cancelled",
+    "createdAt": "2026-05-05T08:26:33.268Z"
+  }
+]
