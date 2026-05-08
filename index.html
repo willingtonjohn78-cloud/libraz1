@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Libra'z Beauty Salon</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="page-wrap">
+      <section id="bookingCard" class="card booking-card fade-in-up">
+        <div class="logo-circle">LOGO</div>
+        <h1>Libra'z Beauty Salon</h1>
+        <p class="subtitle">By Asma Naz</p>
+
+        <form id="bookingForm" class="booking-form" novalidate>
+          <label for="name">Name *</label>
+          <input id="name" name="name" type="text" required placeholder="Enter your name" />
+
+          <label for="phone">Phone Number *</label>
+          <input id="phone" name="phone" type="tel" required placeholder="+92XXXXXXXXXX" />
+
+          <label for="email">Email (Optional)</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" />
+
+          <label for="promoCode">Promo Code (Optional)</label>
+          <input id="promoCode" name="promoCode" type="text" placeholder="PROMO2026" />
+
+          <div class="service-selection">
+            <label>Select Services *</label>
+            <div id="serviceRows" class="service-rows"></div>
+            <button id="addServiceBtn" type="button" class="btn-outline">Add More Service</button>
+            <div class="total-bill-box">
+              <strong>Total Bill:</strong> <span id="totalBillValue">PKR 0</span>
+            </div>
+          </div>
+
+          <button id="bookNowBtn" type="submit" class="btn-gradient">
+            <span class="btn-text">Book Now</span>
+            <span class="spinner hidden" aria-hidden="true"></span>
+          </button>
+        </form>
+
+        <p class="small-link">
+          Admin? <a href="admin.html">Open Dashboard</a>
+        </p>
+        <p class="small-link">
+          <a href="price-list.html">View Full Price List</a>
+        </p>
+      </section>
+    </main>
+
+    <div id="toast" class="toast"></div>
+        <script src="price-data.js"></script>
+    <script src="script.js"></script>
+  </body>
+  </html>
